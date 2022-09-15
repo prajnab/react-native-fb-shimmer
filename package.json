@@ -1,11 +1,11 @@
 {
     "name": "react-native-fb-shimmer",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Shimmer for React Native",
-    "react-native": "js/index",
-    "source": "js/index",
+    "react-native": "src/index",
+    "source": "src/index",
     "files": [
-        "js",
+        "src",
         "android",
         "ios",
         "react-native-fb-shimmer.podspec",
