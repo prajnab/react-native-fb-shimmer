@@ -2,6 +2,10 @@
 
 Simple shimmering effect in React Native using native shimmer libraries by Facebook [Shimmer](https://github.com/facebook/Shimmer)/[shimmer-android](https://github.com/facebook/shimmer-android).
 
+## Support
+
+The library supports react native's New Architecture
+
 ![Shimmer](https://github.com/facebook/Shimmer/blob/master/shimmer.gif?raw=true)
 
 Works for React Native versions >= 0.60
@@ -33,3 +37,7 @@ import Shimmer from "react-native-fb-shimmer";
 | **`endFadeDuration`**   | The duration of the fade used when shimmer ends. _iOS only_                            | `0`     |
 | **`tilt`**              | The tilt angle of the highlight, in degrees. _Android only_                            | `0`     |
 | **`intensity`**         | The intensity of the highlight mask. Range of 0–1. _Android only_                      | `0`     |
+
+## License
+
+MIT

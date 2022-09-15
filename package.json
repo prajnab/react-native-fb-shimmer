@@ -1,0 +1,41 @@
+{
+    "name": "react-native-fb-shimmer",
+    "version": "0.0.1",
+    "description": "Shimmer for React Native",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+        "js",
+        "android",
+        "ios",
+        "react-native-fb-shimmer.podspec",
+        "!android/build",
+        "!ios/build",
+        "!**/__tests__",
+        "!**/__fixtures__",
+        "!**/__mocks__"
+    ],
+    "keywords": [
+        "react-native",
+        "ios",
+        "android",
+        "shimmer"
+    ],
+    "repository": "https://github.com/prajnab/react-native-fb-shimmer",
+    "author": "Prajna Boloor prajna.b18@gmail.com (https://github.com/prajnab)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/prajnab/react-native-fb-shimmer/issues"
+    },
+    "homepage": "https://github.com/prajnab/react-native-fb-shimmer#readme",
+    "devDependencies": {},
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "codegenConfig": {
+        "name": "RTNShimmerSpecs",
+        "type": "components",
+        "jsSrcsDir": "src"
+    }
+}
