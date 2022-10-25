@@ -1,9 +1,7 @@
-import requireNativeComponent from "react-native/Libraries/ReactNative/requireNativeComponent";
-
 const isFabricEnabled = global.nativeFabricUIManager != null;
 
 const shimmer = isFabricEnabled
-  ? require("./RTNShimmerNativeComponent").default
-  : requireNativeComponent("RTNShimmer");
+    ? require("./RTNShimmerNativeComponent").default
+    : require("./RTNShimmer").default;
 
 export default shimmer;
