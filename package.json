@@ -17,9 +17,17 @@
     ],
     "keywords": [
         "react-native",
+        "react-component",
+        "react-native-component",
+        "react",
+        "mobile",
         "ios",
-        "android",
-        "shimmer"
+        "ui",
+        "shimmer",
+        "activityindicator",
+        "indeterminate",
+        "spinner",
+        "animation"
     ],
     "repository": "https://github.com/prajnab/react-native-fb-shimmer",
     "author": "Prajna Boloor prajna.b18@gmail.com (https://github.com/prajnab)",
